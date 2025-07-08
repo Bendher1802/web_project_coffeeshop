@@ -57,14 +57,14 @@
   color: #000000;
 }
 
-.header__title {
+.header__content {
   max-width: 709px;
   display: flex;
   padding-top: 183px;
   padding-left: 80px;
 }
 
-.header__title--style {
+.header__title {
   max-width: 709px;
   font-family: "Inter";
   font-weight: 500;
