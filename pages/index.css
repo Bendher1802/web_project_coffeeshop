@@ -57,15 +57,17 @@
   color: #000000;
 }
 
-.header__content {
+/*.header__content {
   max-width: 709px;
   display: flex;
   padding-top: 183px;
   padding-left: 80px;
-}
+}*/
 
 .header__title {
   max-width: 709px;
+  padding-top: 183px;
+  padding-left: 80px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 58px;
@@ -88,7 +90,7 @@
   font-family: "Noto Serif", Times New Roman, serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 28px 0px 0px 0px;
+  margin: 28px 0px 0px 80px;
 }
 
 .header__image {
