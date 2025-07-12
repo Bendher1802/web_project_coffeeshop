@@ -114,7 +114,74 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="#reservation"></section>
+        <section class="reservation" id="#reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form
+            class="reservation__form"
+            action="/procesar-formulario"
+            method="POST"
+          >
+            <label class="form__label" for="nombre">Nombre *</label>
+            <input
+              type="text"
+              class="form__input"
+              minlength="3"
+              maxlength="20"
+              required
+              placeholder="Nombre"
+              id="nombre"
+            />
+
+            <label class="form__label" for="nivel"
+              >Número de comensales *</label
+            >
+            <input
+              type="number"
+              class="form__input"
+              min="1"
+              max="10"
+              required
+              placeholder="1-8"
+              id="nivel"
+            />
+
+            <label class="form__label" for="fechayhora">Fecha y hora *</label>
+            <input
+              type="datetime-local"
+              class="form__input"
+              required
+              id="fechayhora"
+            />
+
+            <label class="form__label" for="correoElectrónico"
+              >Tu correo electrónico *</label
+            >
+            <input
+              type="email"
+              class="form__input"
+              required
+              placeholder="email@email.com"
+              id="correoElectrónico"
+            />
+
+            <div class="form__button form__button:hover:enabled">
+              <button type="submit" class="form__button form__button--submit">
+                Reservar una mesa
+              </button>
+            </div>
+
+            <div class="checkbox">
+              <label class="form__checkbox">
+                <input
+                  type="checkbox"
+                  id="términos"
+                  class="form__checkbox:checked"
+                />
+                Acepto los términos de uso
+              </label>
+            </div>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

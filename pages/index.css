@@ -208,4 +208,117 @@
 }
 
 .reservation {
+  background-color: #d9e7ff;
+  background-image: url("/images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.reservation__title {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  max-width: 385px;
+  margin: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+input::placeholder {
+  color: #838383;
+}
+
+.form__fieldset {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  border-radius: 5px;
+  border: 1px solid #1a1a1a;
+  background: #fff;
+  color: #000;
+  font-size: 15px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  max-width: 385px;
+  max-height: 60px;
+  margin-bottom: 32px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  /*width: 100%;*/
+}
+
+.form__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  max-width: 385px;
+  height: 60px;
+  padding: 0;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  width: 100%;
+  background: #2f80ed;
+}
+
+.form__button:hover:enabled {
+  opacity: 70%;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  gap: 12px;
+}
+
+.form__checkbox:checked {
+  background: #2f80ed;
+  content: url("/images/check.svg");
 }
