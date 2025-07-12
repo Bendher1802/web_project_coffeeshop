@@ -116,53 +116,52 @@
         </section>
         <section class="reservation" id="#reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
-          <form
-            class="reservation__form"
-            action="/procesar-formulario"
-            method="POST"
-          >
-            <label class="form__label" for="nombre">Nombre *</label>
-            <input
-              type="text"
-              class="form__input"
-              minlength="3"
-              maxlength="20"
-              required
-              placeholder="Nombre"
-              id="nombre"
-            />
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="nombre">Nombre *</label>
+              <input
+                type="text"
+                class="form__input"
+                minlength="3"
+                maxlength="20"
+                required
+                placeholder="Nombre"
+                id="nombre"
+              />
 
-            <label class="form__label" for="nivel"
-              >Número de comensales *</label
-            >
-            <input
-              type="number"
-              class="form__input"
-              min="1"
-              max="10"
-              required
-              placeholder="1-8"
-              id="nivel"
-            />
+              <label class="form__label" for="nivel"
+                >Número de comensales *</label
+              >
+              <input
+                type="number"
+                class="form__input"
+                min="1"
+                max="10"
+                required
+                placeholder="1-8"
+                id="nivel"
+              />
 
-            <label class="form__label" for="fechayhora">Fecha y hora *</label>
-            <input
-              type="datetime-local"
-              class="form__input"
-              required
-              id="fechayhora"
-            />
+              <label class="form__label" for="fechayhora">Fecha y hora *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                required
+                id="fechayhora"
+              />
 
-            <label class="form__label" for="correoElectrónico"
-              >Tu correo electrónico *</label
-            >
-            <input
-              type="email"
-              class="form__input"
-              required
-              placeholder="email@email.com"
-              id="correoElectrónico"
-            />
+              <label class="form__label" for="correoElectrónico"
+                >Tu correo electrónico *</label
+              >
+
+              <input
+                type="email"
+                class="form__input"
+                required
+                placeholder="email@email.com"
+                id="correoElectrónico"
+              />
+            </fieldset>
 
             <div class="form__button form__button:hover:enabled">
               <button type="submit" class="form__button form__button--submit">
