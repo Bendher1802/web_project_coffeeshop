@@ -129,7 +129,7 @@
                 id="nombre"
               />
 
-              <label class="form__label" for="nivel"
+              <label class="form__label" for="comensales"
                 >Número de comensales *</label
               >
               <input
@@ -139,7 +139,7 @@
                 max="10"
                 required
                 placeholder="1-8"
-                id="nivel"
+                id="comensales"
               />
 
               <label class="form__label" for="fechayhora">Fecha y hora *</label>
@@ -163,22 +163,26 @@
               />
             </fieldset>
 
-            <div class="form__button form__button:hover:enabled">
-              <button type="submit" class="form__button form__button--submit">
-                Reservar una mesa
-              </button>
-            </div>
+            <fieldset class="form__fieldset">
+              <div class="form__button form__button:hover:enabled">
+                <button type="submit" class="form__button form__button--submit">
+                  Reservar una mesa
+                </button>
+              </div>
+            </fieldset>
 
-            <div class="checkbox">
-              <label class="form__checkbox">
-                <input
-                  type="checkbox"
-                  id="términos"
-                  class="form__checkbox:checked"
-                />
-                Acepto los términos de uso
-              </label>
-            </div>
+            <fieldset class="form__fieldset">
+              <div class="checkbox">
+                <label class="form__checkbox">
+                  <input
+                    type="checkbox"
+                    id="términos"
+                    class="form__checkbox:checked"
+                  />
+                  Acepto los términos de uso
+                </label>
+              </div>
+            </fieldset>
           </form>
         </section>
       </main>
