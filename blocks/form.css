@@ -55,12 +55,6 @@ input::placeholder {
   opacity: 0.7;
 }
 
-/*.checkbox {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 120px;
-}*/
-
 .form__checkbox {
   border-radius: 2px;
   gap: 12px;
@@ -69,4 +63,10 @@ input::placeholder {
 .form__checkbox:checked {
   background: #2f80ed;
   content: url("/images/check.svg");
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
 }

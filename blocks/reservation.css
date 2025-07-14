@@ -28,9 +28,3 @@
   display: flex;
   flex-direction: column;
 }
-
-.checkbox {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 120px;
-}
