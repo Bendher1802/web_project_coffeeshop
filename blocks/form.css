@@ -64,9 +64,3 @@ input::placeholder {
   background: #2f80ed;
   content: url("/images/check.svg");
 }
-
-.checkbox {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 120px;
-}
