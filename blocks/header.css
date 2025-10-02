@@ -9,8 +9,6 @@
   position: relative;
   min-height: 720px;
   max-height: 800px;
-  /*height: 100vh;*/
-  /*box-sizing: border-box;*/
 }
 
 .header__title {
